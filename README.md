@@ -12,4 +12,8 @@ chmod +x da1443-en.sh<br>
 
 XXX.XXX.XXX.XXX = IP Address
 
-<input type="text" id="in3" value="1.2.3.4" onkeyup="dynamic_value('in3', 'out3');">
+<form action="/action_page.php">
+First name: <input type="text" name="FirstName" value="Mickey"><br>
+Last name: <input type="text" name="LastName" value="Mouse"><br>
+<input type="submit" value="Submit">
+</form>
