@@ -11,9 +11,3 @@ chmod +x da1443-en.sh<br>
 ./da1443-en.sh 2>&1|tee directadmin_install.log<br>
 
 XXX.XXX.XXX.XXX = IP Address
-
-<form action="/action_page.php">
-First name: <input type="text" name="FirstName" value="Mickey"><br>
-Last name: <input type="text" name="LastName" value="Mouse"><br>
-<input type="submit" value="Submit">
-</form>
