@@ -11,3 +11,5 @@ chmod +x da1443-en.sh<br>
 ./da1443-en.sh 2>&1|tee directadmin_install.log<br>
 
 XXX.XXX.XXX.XXX = IP Address
+
+<input type="text" id="in3" value="1.2.3.4" onkeyup="dynamic_value('in3', 'out3');">
