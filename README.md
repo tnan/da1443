@@ -1,5 +1,5 @@
 # da1443
-<b>Require</b><br>
+<b>Screen</b><br>
 yum -y install screen && screen<br>
 
 <b>Auto</b><br>
