@@ -645,7 +645,7 @@ if [ $CMD_LINE -eq 0 ]; then
         if [ "$onetwo" = "2" ] || [ "$onetwo" = "3" ] || [ "$onetwo" = "4" ]; then
         	CB_VER=1.1
         	PHP_V=5.2
-		PHP_T=php-fpm
+		PHP_T=cli
 		AP_VER=2.2
 		RUID="";
 		MOD_RUID2=yes
@@ -655,7 +655,7 @@ if [ $CMD_LINE -eq 0 ]; then
         	fi
 		if [ "$onetwo" = "4" ]; then
 			CB_VER=2.0
-			PHP_V=7.2
+			PHP_V=7.3
 			AP_VER=2.4
 			RUID=" with mod_ruid2";
 
